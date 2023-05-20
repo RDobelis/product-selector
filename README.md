@@ -22,3 +22,10 @@ Contributions, issues, and feature requests are welcome!
 ## Author
 
 This product selection application was developed by Rihards Dobelis.
+
+## Screenshots
+
+<p align="center">
+  <b>Index</b><br>
+  <img src="./INDEX_SCREENSHOT.png" alt="Index">
+</p>
