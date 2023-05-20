@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Preces koda ģenerators</h1>
+      <h1>Product Code Generator</h1>
       <ProductSelector
         items={items}
         handleProductSelect={handleProductSelect}
@@ -70,7 +70,7 @@ function App() {
           handleVariationSelect={handleVariationSelect}
         />
       )}
-      <h2>Preces kods: {productCode}</h2>
+      <h2>Product code: {productCode}</h2>
     </div>
   );
 }

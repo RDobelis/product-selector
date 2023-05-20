@@ -2,7 +2,7 @@
   "varieties": [
     {
       "code": "SIZE",
-      "description": "Izmērs",
+      "description": "Size",
       "options": [
         {"code": "S", "description": "Small"},
         {"code": "M", "description": "Medium"},
@@ -11,7 +11,7 @@
     },
     {
       "code": "COLOR",
-      "description": "Krāsa",
+      "description": "Color",
       "options": [
         {"code": "RED", "description": "Sarkans"},
         {"code": "BLU", "description": "Zils"},
@@ -20,7 +20,7 @@
     },
     {
       "code": "SHOE-SIZE",
-      "description": "Apavu izmērs",
+      "description": "Shoe size",
       "options": [
         {"code": "37", "description": "37"},
         {"code": "38", "description": "38"},

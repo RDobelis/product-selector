@@ -26,7 +26,7 @@ export function VariationSelector(props: VariationSelectorProps) {
 
   return (
     <div className="variation-selector">
-      <h2>Preces izmērs/krāsa</h2>
+      <h2>Product variation</h2>
       {varieties.map((variety) => (
         <div className="variation-group" key={variety.code}>
           <h3>{variety.description}</h3>
@@ -34,7 +34,7 @@ export function VariationSelector(props: VariationSelectorProps) {
             key={`${selectedItem?.code || "none"}.${variety.code}`}
             onChange={(e) => handleSelect(e, variety)}
           >
-            <option value="">Izvēlies...</option>
+            <option value="">Select...</option>
             {variety.options.map((option) => (
               <option key={option.code} value={option.code}>
                 {option.description}

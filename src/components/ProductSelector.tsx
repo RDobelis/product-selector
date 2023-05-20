@@ -11,7 +11,7 @@ export function ProductSelector(props: ProductSelectorProps) {
 
   return (
     <div className="product-selector">
-      <h2>Preces izvēle</h2>
+      <h2>Product selection</h2>
       <div className="product-group">
         <select
           onChange={(e) =>
@@ -22,7 +22,7 @@ export function ProductSelector(props: ProductSelectorProps) {
               : handleProductSelect(null)
           }
         >
-          <option value="">Izvēlies preci</option>
+          <option value="">Select product</option>
           {items.map((item) => (
             <option key={item.code} value={item.code}>
               {item.description}
